@@ -100,7 +100,7 @@ table {
     align-items: center;
     display: flex;
     flex-direction: column;
-    padding: 4rem 0;
+    padding: 3rem 0;
 }
 
 .header__title {
@@ -829,5 +829,30 @@ to {
     .section-final {
         width: 240px;
         padding: 2rem 1.5rem;
+    }
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 3rem 2rem;
+}
+
+.footer__text {
+    color: var(--color-positive);
+    font-family: var(--ff-title);
+    font-size: var(--size-xxs);
+    line-height: 1.4em;
+    text-align: center;
+}
+
+.footer__text a {
+    color: var(--color-sea);
+    text-decoration: none;
+}
+
+@media (max-width: 500px) {
+    .footer__text {
+        max-width: 250px;
     }
 }
